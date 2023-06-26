@@ -4,7 +4,6 @@
   "description": "React component to do progressive/partial hydration",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "yarn outdated",
     "prepublish": "yarn build",
     "build": "npx babel src --out-dir lib",
     "test": "echo 'TODO: Add tests!'",
